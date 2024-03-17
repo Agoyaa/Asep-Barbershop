@@ -42,3 +42,15 @@ Route::get('/contact', function () {
         'title' => 'contact'
     ]);
 });
+
+Route::get('/gallery', function () {
+    return view('gallery',[
+        'title' => 'gallery'
+    ]);
+});
+
+Route::get('/news', function () {
+    return view('news',[
+        'title' => 'news'
+    ]);
+});

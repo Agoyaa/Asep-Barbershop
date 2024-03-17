@@ -12,8 +12,8 @@
 							<p class="subtitle">Pala kau pasti kweccauuu!!!</p>
 							<h1>Asep Barbershop</h1>
 							<div class="hero-btns">
-								<a href="shop.html" class="boxed-btn">Gallery</a>
-								<a href="contact.html" class="bordered-btn">Tren Rambut</a>
+								<a href="gallery" class="boxed-btn">Gallery</a>
+								<a href="news" class="bordered-btn">Tren Rambut</a>
 							</div>
 						</div>
 					</div>

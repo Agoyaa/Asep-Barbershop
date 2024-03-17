@@ -23,7 +23,7 @@
                     <div class="col-lg-6">
                         <div class="row g-3">
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="template/assets/img/barudak.jpg">
                             </div>
                             <div class="col-6 text-start">
                                 <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg" style="margin-top: 25%;">
@@ -37,7 +37,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <h1 class="mb-4">Welcome to <img src="template/assets/img/logo_about.png" alt=""></h1>
+                        <h1 class="subtitle">Welcome to <img src="template/assets/img/Logo_Asep2.png" alt="">Asep Barbershop</h1>
                         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
                         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                         <div class="row g-4 mb-4">
