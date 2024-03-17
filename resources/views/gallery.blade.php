@@ -8,7 +8,7 @@
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Asep Barbershop | {{$title}}</title>
+	<title>Asep Barbershop | Gallery</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="template/assets/img/Logo_Asep.png">
