@@ -447,6 +447,14 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   border-radius: 50px;
 }
 
+/* .section-title::before{
+  background-color: #d8a94c;
+}
+
+.section-title::after{
+  background-color: #d8a94c;
+} */
+
 .section-title h3 {
   font-size: 40px;
   position: relative;
