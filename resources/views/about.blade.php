@@ -1,20 +1,22 @@
 @extends('layouts.main')
 
 @section('konten')
-<!-- breadcrumb-section -->
-	<div class="breadcrumb-section breadcrumb-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 offset-lg-2 text-center">
-					<div class="breadcrumb-text">
-						<p>Who We Are</p>
-						<h1>About Us</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end breadcrumb section -->
+<!-- hero area -->
+<div class="hero-area hero-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="hero-text">
+                    <div class="hero-text-tablecell">
+                        <p class="subtitle">Biarkan rambutmu berbicara!!</p>
+                        <h1>About us</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
             <!-- About Start -->
         <div class="container-xxl py-5">
@@ -23,23 +25,27 @@
                     <div class="col-lg-6">
                         <div class="row g-3">
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="template/assets/img/barudak.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="assets/img/barudak.jpg">
                             </div>
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg" style="margin-top: 25%;">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="assets/img/arya.jpg"style="margin-top: 5%;">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="assets/img/aldi.jpg"style="margin-top: 5%;">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="assets/img/yoga2.jpg"style="margin-top: 5%;">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <h1 class="subtitle">Welcome to <img src="template/assets/img/Logo_Asep2.png" alt="">Asep Barbershop</h1>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <div class="col-lg-6 ">
+                        <h1 class="subtitle">Welcome to <img src="assets/img/Logo_Asep2.png" alt="">Asep Barbershop</h1>
+                        <p class="mb-4 justify-content-between">Asep barbershop adalah barbershop tergacor di Bandung, tempat di mana keanggunan dan kepercayaan diri Anda dipahat dengan indah. Kami mengutamakan kepuasaan pelanggan kami dengan memberikan layanan berkualitas tinggi seperti perlengkapan sanitasi, fasilitas nyaman, dan tukang cukur berpengalaman.
+                            Sejarah kami dimulai dari sebuah impian sederhana untuk menciptakan ruang yang tidak hanya memotong rambut, tetapi juga menghadirkan pengalaman yang tak terlupakan. Pada tahun 2010 Arya, pri, dan yoga berdiskusi dan berniat  membuka barbershop ini dengan visi untuk mempersembahkan keindahan dalam setiap potongan rambut. Dari situlah, Asep Barbershop tumbuh menjadi lebih dari sekadar bisnis. Kami menjadi bagian dari komunitas yang kami layani dengan penuh kasih dan dedikasi. 
+                        </p>
+                        <p class="mb-4">Dalam perjalanan kami, kami telah mendapatkan pengakuan yang luar biasa dari komunitas dan media. Penghargaan Master Barber dan The best Barberman merupakan bukti dari dedikasi kami untuk keunggulan dalam pelayanan. Namun, pencapaian terbesar kami adalah senyum di wajah setiap pelanggan yang meninggalkan kursi kami, rambut mereka diberkahi dengan sentuhan magis dari tangan ahli kami. 
+                            Hingga saat ini, Captain barbershop telah memiliki 3 cabang yang tersebar di Cibiru, Nagreg, Dago tahun ini akan berkembang sampai 10 cabang. Selain itu, kami juga berusaha untuk menjadi barbershop terbaik di Bandung.
+                            </p>
                         <div class="row g-4 mb-4">
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">

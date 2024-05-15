@@ -18,7 +18,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- end hero area -->
+<!-- end hero area -->
 
 <!-- contact form -->
 	<div class="contact-from-section mt-150 mb-150">

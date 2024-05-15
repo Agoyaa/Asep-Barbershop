@@ -54,3 +54,8 @@ Route::get('/news', function () {
         'title' => 'news'
     ]);
 });
+Route::get('/admin', function () {
+    return view('auth',[
+        'title' => 'login'
+    ]);    
+});
