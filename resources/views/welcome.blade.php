@@ -85,8 +85,8 @@
 				<div class="col-lg-4 col-md-6 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-1.jpg" alt=""></a>
-						</div>
+							<a href="single-product.html"><img src="assets/img/haircut2.png" alt="Haircut"></a>
+						  </div>													
 						<h3>Haircut </h3>
 						<p class="product-price"><span>pengalaman potong rambut yang keren abis dan kece parah</span> Rp. 40.000 </p>
 					</div>
@@ -94,7 +94,7 @@
 				<div class="col-lg-4 col-md-6 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-2.jpg" alt=""></a>
+							<a href="single-product.html"><img src="assets/img/hairtreatment2.png" alt=""></a>
 						</div>
 						<h3>Hair Treatment</h3>
 						<p class="product-price"><span>Treatment untuk rambut yang sudah rusak akibat bahan kimia</span> Rp. 70.000 </p>
@@ -103,7 +103,7 @@
 				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-3.jpg" alt=""></a>
+							<a href="single-product.html"><img src="assets/img/haircolor2.png" alt=""></a>
 						</div>
 						<h3>Hair Color</h3>
 						<p class="product-price"><span>Buat warna rambutmu menjadi berkilau dan berwarna</span> Rp. 150.000 </p>
@@ -120,12 +120,12 @@
 				<div class="row">
 					<div class="col-lg-9">
 						<div class="featured-text mt-1">
-							<h2 class="subtitle">Kenapa Harus <img src="assets/img/Logo_Asep2.png" alt="">Asep Barbershop</h2>							
+							<h2 class="subtitle">Kenapa Harus <img src="assets/img/Logo_Asep2.png" alt="">Asep Barbershop?</h2>							
 								<div class="row">
 								<div class="col-lg-6 col-md-6 mb-6 mb-md-5 mt-2">
 									<div class="list-box d-flex">
 										<div class="list-icon">
-											<i class="fas fa-shipping-fast"></i>
+											<i class="fas fa-user-secret"></i>
 										</div>
 										<div class="content">
 											<h3>Barberman Profesional</h3>
@@ -147,7 +147,7 @@
 								<div class="col-lg-6 col-md-6 mb-5 mb-md-5 mt-2">
 									<div class="list-box d-flex">
 										<div class="list-icon">
-											<i class="fas fa-briefcase"></i>
+											<i class="fas fa-hand-holding-heart"></i>
 										</div>
 										<div class="content">
 											<h3>Family frendly</h3>

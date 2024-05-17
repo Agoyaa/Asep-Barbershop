@@ -114,16 +114,17 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box about-widget">
 						<h2 class="widget-title">About us</h2>
-						<p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+						<p>PT.Asep Jaya Abadi adalah perusahaan yang bergerak dibidang jasa (Barbershop) bernama Asep Barbershop. Asep Barbershop didirikan pada 21 September 2010.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box get-in-touch">
 						<h2 class="widget-title">Get in Touch</h2>
 						<ul>
-							<li>34/8, East Hukupara, Gifirtok, Sadan.</li>
-							<li>support@fruitkha.com</li>
-							<li>+00 111 222 3333</li>
+							<li>
+								Jl. Raya Nagreg-Limbangan, Ciaro</li>
+							<li>Asepbrb@gmail.com</li>
+							<li>+62895330381574</li>
 						</ul>
 					</div>
 				</div>

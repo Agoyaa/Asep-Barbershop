@@ -49,107 +49,107 @@
       <div class="gallery-track">
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/kL3u4Tqfn1s" />
+            <img src="assets/img/model1.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/yVUQlyRlJSw" />
+            <img src="assets/img/model2.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/7H77FWkK_x4" />
+            <img src="assets/img/model3.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/r7YZXv5f5cc" />
+            <img src="assets/img/model4.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/KQ75n3P8EJA" />
+            <img src="assets/img/model5.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/psdV2Rl-GvU" />
+            <img src="assets/img/model6.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/gGIJGnpMZfo" />
+            <img src="assets/img/model7.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/j7AMlh2MMHc" />
+            <img src="assets/img/model8.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/U3cctUBucn0" />
+            <img src="assets/img/model9.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/bOvvgayPCyI" />
+            <img src="assets/img/model10.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/psdV2Rl-GvU" />
+            <img src="assets/img/model11.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/K-94QEMm3vo" />
+            <img src="assets/img/model12.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/j7AMlh2MMHc" />
+            <img src="assets/img/model13.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/D68ADLeMh5Q" />
+            <img src="assets/img/model14.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/BzuUDHCi_vo" />
+            <img src="assets/img/model15.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/ua2vQnsn_x0" />
+            <img src="assets/img/model16.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/TGOGwgPR1_Q" />
+            <img src="assets/img/model17.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/oqStl2L5oxI" />
+            <img src="assets/img/model18.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/XazoYQRnDZo" />
+            <img src="assets/img/model19.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/YfgE8WCcZsQ" />
+            <img src="assets/img/model20.jpg" />
           </div>
         </div>
         <div class="card">
           <div class="card-image-wrapper">
-            <img src="https://source.unsplash.com/NpMWgJ1_Ohk" />
+            <img src="assets/img/model21.jpg" />
           </div>
         </div>
       </div>
