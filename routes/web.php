@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SessionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -54,8 +55,7 @@ Route::get('/news', function () {
         'title' => 'news'
     ]);
 });
-Route::get('/admin', function () {
-    return view('auth',[
-        'title' => 'login'
-    ]);    
-});
+
+Route::get('/sesi', [SessionController::class, 'index']);
+Route::post('/sesi/login', [SessionController::class, 'login']);
+Route::get('/sesi/logout', [SessionController::class, 'logout']);
