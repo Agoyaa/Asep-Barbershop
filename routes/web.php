@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\NewsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -58,9 +57,5 @@ Route::get('/tren', function () {
 Route::get('/admin', function () {
     return view('auth',[
         'title' => 'login'
-    ]);
-
-
-Route::resource('/news', NewsController::class);
-
+    ]);    
 });
