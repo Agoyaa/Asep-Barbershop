@@ -19,18 +19,18 @@ class SessionController extends Controller
 
     function login(Request $request)
     {
-        Session::flash('email', $request->email);
+        Session::flash('name', $request->name);
         Session::flash('success', 'Berhasil login!');
         $request->validate([
-            'email' => 'required',
+            'name' => 'required',
             'password' => 'required'
         ], [
-            'email.required' => 'Email is required',
+            'name.required' => 'Email is required',
             'password.required' => 'Password is required',
         ]);
 
         $infologin = [
-            'email' => $request->email,
+            'name' => $request->name,
             'password' => $request->password
         ];
         if (Auth::attempt($infologin)) {

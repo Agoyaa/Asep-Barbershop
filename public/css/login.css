@@ -32,6 +32,7 @@ body {
     font-feature-settings: normal;
     font-variation-settings: normal;
     height: auto;
+    background-image: url(../img/breadcrumb-bg.jpg);
 }
 
 * {
@@ -41,43 +42,7 @@ body {
 }
 
 *::selection {
-    background-color: var(--primary-light);
-}
-
-.socials-row {
-    display: flex;
-}
-
-.socials-row img {
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-.socials-row>a {
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    width: 100%;
-    min-height: 2.75rem;
-    display: flex;
-    gap: 0.75rem;
-    color: var(--text);
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-size: 1.1rem;
-    color: var(--text);
-    padding: 0.5rem;
-    border: 1px solid var(--border);
-    transition: all .3s ease;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 4px 0px;
-}
-
-.socials-row>a svg {
-    color: var(--text)
-}
-
-.socials-row>a:hover {
-    background-color: var(--btn-bg);
+    background-image: url(../img/breadcrumb-bg.jpg);
 }
 
 .form-welcome-row {
