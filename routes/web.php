@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\SessionController;
-
+use App\Http\Controllers\NewsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,6 +14,8 @@ use App\Http\Controllers\SessionController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/news', [NewsController::class,'create'])->name('news.index');
+Route::post('/news', [NewsController::class,'create'])->name('news.store');
 Route::get('/contact', [BookingController::class, 'create'])->name('booking.contact');
 Route::post('/booking', [BookingController::class, 'store'])->name('booking.store');
 Route::get('/admin', [BookingController::class, 'index'])->name('admin');

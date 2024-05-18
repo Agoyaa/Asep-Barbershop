@@ -1,6 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.main')
 
 @section('content')
+
     <div class="container">
         <h1>Create News</h1>
         <form action="{{ route('news.store') }}" method="POST" enctype="multipart/form-data">
