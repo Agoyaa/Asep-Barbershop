@@ -36,7 +36,7 @@
                         });
                         Toast.fire({
                             icon: "error",
-                            title: "Email dan password yang dimasukkan salah!"
+                            title: "Nama atau password yang dimasukkan salah!"
                         });
                     </script>
                 @endif

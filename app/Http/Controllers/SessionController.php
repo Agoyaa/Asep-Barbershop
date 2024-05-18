@@ -36,7 +36,7 @@ class SessionController extends Controller
         if (Auth::attempt($infologin)) {
             return redirect('admin')->with('success', Auth::user()->name .' Halo !');
         } else {
-            return redirect('sesi')->with('error', 'Email dan password yang dimasukkan salah');
+            return redirect('sesi')->with('error', 'Nama atau password yang dimasukkan salah');
         }
     }
 
