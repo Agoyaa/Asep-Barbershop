@@ -83,7 +83,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-1.jpg" alt="">
+                                <img class="img-fluid" src="/assets/img/barber2.png" alt="">
                             </div>
                             <h5 class="mb-0">Arya Adi Wijaya</h5>
                             <small>infone maszehh</small>
@@ -97,7 +97,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-2.jpg" alt="">
+                                <img class="img-fluid" src="/assets/img/barber3.png" alt="">
                             </div>
                             <h5 class="mb-0">Prihatma Nurwahid</h5>
                             <small>infone maszehh</small>
@@ -111,7 +111,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                                <img class="img-fluid" src="/assets/img/barber1.png" alt="">
                             </div>
                             <h5 class="mb-0">Yoga Triansyah</h5>
                             <small>infone maszehh</small>
@@ -125,7 +125,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                                <img class="img-fluid" src="/assets/img/barber4.png" alt="">
                             </div>
                             <h5 class="mb-0">Ghalib Andhika Zulki</h5>
                             <small>infone maszehh</small>

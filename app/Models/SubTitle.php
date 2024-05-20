@@ -9,10 +9,11 @@ class SubTitle extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['news_id', 'sub_title', 'image_path'];
+    protected $fillable = ['news_id', 'sub_title', 'image_path','desc'];
 
     public function news()
     {
-        return $this->belongsTo(News::class);
+        return $this->belongsTo(News::class)
+        ;
     }
 }

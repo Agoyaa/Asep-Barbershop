@@ -8,7 +8,7 @@ class News extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'content'];
+    protected $fillable = ['title', 'bg','content'];
 
     public function subTitles()
     {

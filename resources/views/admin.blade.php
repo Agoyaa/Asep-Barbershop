@@ -174,7 +174,7 @@
                     </a>
                 </div>
                 <div class="list">
-                    <a href=""><i data-feather="paperclip"></i>
+                    <a href="/create"><i data-feather="paperclip"></i>
                         <p> Newspaper</p>
                     </a>
                 </div>
@@ -210,6 +210,13 @@
             }
         </script>
     @endif
+    <div class="container">
+        @if($bookings->isEmpty())
+            <p>No bookings available.</p>
+            
+        @else
+            
+        @endif
     <div class="tabel">
         <table border="2">
             <thead>
@@ -217,6 +224,7 @@
                     <th>ID</th>
                     <th>Name</th>
                     <th>No Handphone</th>
+                    <th>Tanggal</th>
                     <th>Jam Cukur</th>
                     <th>Diterima Tanggal</th>
                 </tr>
@@ -227,12 +235,14 @@
                         <td>{{ $booking->id }}</td>
                         <td>{{ $booking->name }}</td>
                         <td>{{ $booking->no_handphone }}</td>
+                        <td>{{ $booking->tanggal }}</td>
                         <td>{{ $booking->jamcukur }}</td>
                         <td>{{ $booking->created_at }}</td>
                     </tr>
                 @endforeach
             </tbody>
         </table>
+    </div>
     </div>
 
     <script>
@@ -252,6 +262,22 @@
         document.querySelector('#cart').onclick = () => {
             cartContainer.classList.toggle('active');
         };
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const currentDate = new Date();
+            
+            document.querySelectorAll('table tbody tr').forEach(function (row) {
+                const tanggal = row.querySelector('td:nth-child(3)').innerText;
+                const jamCukur = row.querySelector('td:nth-child(4)').innerText;
+    
+                const bookingDateTime = new Date(`${tanggal}T${jamCukur}`);
+                
+                if (bookingDateTime < currentDate) {
+                    row.style.display = 'none';
+                }
+            });
+        });
     </script>
 </body>
 

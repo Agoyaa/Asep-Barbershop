@@ -14,13 +14,18 @@ use App\Http\Controllers\NewsController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/news', [NewsController::class,'create'])->name('news.index');
-Route::post('/news', [NewsController::class,'create'])->name('news.store');
+Route::get('/news/{id}', [NewsController::class, 'show'])->name('news.show');
+Route::get('/news', [NewsController::class, 'index'])->name('news.index');
+Route::post('/news', [NewsController::class, 'store'])->name('news.store');
 Route::get('/contact', [BookingController::class, 'create'])->name('booking.contact');
 Route::post('/booking', [BookingController::class, 'store'])->name('booking.store');
-Route::get('/admin', [BookingController::class, 'index'])->name('admin');
 
-Route::get('/sesi', [SessionController::class, 'index']);
+Route::middleware(['auth'])->group(function () {
+Route::get('/admin', [BookingController::class, 'index'])->name('admin');
+Route::get('/create', [NewsController::class, 'create'])->name('news.create');
+});
+
+Route::get('/sesi', [SessionController::class, 'index'])->name('login');
 Route::post('/sesi/login', [SessionController::class, 'login']);
 Route::get('/sesi/logout', [SessionController::class, 'logout']);
 
@@ -48,11 +53,11 @@ Route::get('/career', function () {
     ]);
 });
 
-// Route::get('/contact', function () {
-//     return view('contact',[
-//         'title' => 'contact'
-//     ]);
-// });
+Route::get('/test', function () {
+    return view('test',[
+        'title' => 'test'
+    ]);
+});
 
 Route::get('/gallery', function () {
     return view('gallery',[

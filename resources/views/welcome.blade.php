@@ -82,7 +82,7 @@
                         </div>
                         <div class="content">
                             <h3>Open From Monday - Sunday</h3>
-                            <p>10AM-9PM(8.30 Last Order)</p>
+                            <p>9AM-9PM(8.30 Last Order)</p>
                         </div>
                     </div>
                 </div>
